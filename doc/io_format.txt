@@ -1,0 +1,26 @@
+﻿
+input_data
+# =========================================================   
+e_id
+string_id
+eojeol_id
+eojeol
+etri_dep_eojeol
+etri_dep_type
+etri_gov_id
+ulsan_dep_eojeol
+ulsan_dep_type
+ulsan_gov_id
+# =========================================================   
+
+output_data
+# =========================================================   
+e_id : main_table의 id와 join
+string_id
+eojeol_id
+eojeol
+gov_id
+relation_name
+evidence
+is_same_gov(규칙적용전 같은 지배소를 참조하면 1, 아니면 0)
+# ========================================================= 
