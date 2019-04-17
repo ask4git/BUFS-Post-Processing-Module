@@ -85,7 +85,7 @@ import sent_statistics as sst
 
 statistic = sst.SentenceStatistics(output_file_name)
 statistic.print_sent_statistics() # output_file_name의 통계정보를 출력
-statistic.save_sent_file() # 통계 5기준으로 corpus를 2개의 파일로 나누어서 현재 디렉터리에 저장
+statistic.save_sent_file() # Statistics 항목의 5를 기준으로 corpus를 2개의 파일로 나누어서 현재 디렉터리에 저장
 statistic.print_sent_length_statistics(output_file_name) # output_file_name의 어절 길이별 문장 개수를 출력
 ```
 
