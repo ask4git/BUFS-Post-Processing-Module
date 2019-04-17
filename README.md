@@ -6,12 +6,12 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
 + 입력 말뭉치 정보
 
   | 항목 | 값 |
-  |---|:---:|
+  |:---:|:---:|
   | 모든 문장 개수 |	740,447 문장	|
   | 모든 어절 개수	| 10,015,014 어절	|
   | 동일한 의존관계 개수 |	6,866,872 어절	|
   | 동일한 의존관계 비율	| 68.56 %	|
-+ UD_Korean-BUFS
++ UD_Korean-BUFS.txt
   * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
   * 통계 정보
 
