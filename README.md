@@ -14,7 +14,7 @@
   | 동일한 의존관계 비율	| 68.56 %	|
 + UD_Korean-BUFS.txt
   * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
-  * 통계 정보
+  
 
 ## 형태소 유형의 전 처리
 + 정확한 의존관계의 후 처리를 위해 5가지 형태소 유형에 대해 전 처리
