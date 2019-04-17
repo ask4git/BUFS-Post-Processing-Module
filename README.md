@@ -4,6 +4,7 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
 
 ## Corpus
 + 입력 말뭉치 정보
+
   | 항목 | 값 |
   |---|:---:|
   | 모든 문장 개수 |	740,447 문장	|
@@ -19,6 +20,7 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
   * NNG+NNG(일반 명사)와 같은 여러 개의 명사로 이루어진 복합명사들을 하나의 명사로 취급
   * NNG+XSV(동사 파생 접미사)와 같이 용언으로 쓰이는 어절은 VV(동사)로 취급
   * 기타 형태소 유형의 전 처리
+  
     | 전 처리 전 형태소 | 전 처리 후 형태소 |
     |---|---|
     | NNG+NNG | NNG |
@@ -31,6 +33,7 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
     - "소 인수 분해 하 는": NNG+NNG+NNG+XSV+ETM
     - "소인수 분해하 는": NNG+VV+ETM
 + 전 처리 후 변화
+
     | 항목 | 전 처리 전 | 전 처리 후 |
     | :------- | ----: | :---: |
     | 같은 형태소 유형의 의존소의 개수 | 8,420,798 어절 | 8,936,293 어절 |
@@ -99,6 +102,7 @@ optional arguments:
 
 + Module로 fixed된 의존관계 개수: 2,355,202 어절
 + RULE에 따라서 fixed된 의존관계 개수
+
     | RULE | 지배소와의 관계명 | 어절 개수 |
     | :------- | :---: | ----: |
     | RULE_01 SF와 SP의 처리 | punch | 976,373 어절 |
