@@ -1,7 +1,7 @@
 # Post-Processing-Module(Ver.0.95)
 
 + Busan University of Foreign Studies NLP Module for post-processing of korean language dependency(next_gen_project)
-  * 한국어 UD 데이터셋 구축을 위한 후 처리 모듈
++ 한국어 UD 데이터셋 구축을 위한 후 처리 모듈
 
 ## Corpus
 + 입력 말뭉치 정보
