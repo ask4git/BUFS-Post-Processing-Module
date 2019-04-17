@@ -1,6 +1,7 @@
 # Post-Processing-Module(Ver.0.95)
-한국어 UD 데이터셋 구축을 위한 후 처리 모듈
-Busan University of Foreign Studies NLP Module for post-processing of korean language dependency(next_gen_project)
+
++ Busan University of Foreign Studies NLP Module for post-processing of korean language dependency(next_gen_project)
+  * 한국어 UD 데이터셋 구축을 위한 후 처리 모듈
 
 ## Corpus
 + 입력 말뭉치 정보
@@ -30,8 +31,8 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
     | NNG+XSV | VV |
 + 예시
   * "소인수분해하는"
-    - 전 처리 전 "소 인수 분해 하 는": NNG+NNG+NNG+XSV+ETM
-    - 전 처리 후 "소인수 분해하 는": NNG+VV+ETM
+    & 전 처리 전 "소 인수 분해 하 는": NNG+NNG+NNG+XSV+ETM
+    & 전 처리 후 "소인수 분해하 는": NNG+VV+ETM
 + 전 처리 후 변화
 
     | 항목 | 전 처리 전 | 전 처리 후 |
