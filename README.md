@@ -12,8 +12,12 @@
   | 모든 어절 개수	| 10,015,014 어절	|
   | 동일한 의존관계 개수 |	6,866,872 어절	|
   | 동일한 의존관계 비율	| 68.56 %	|
-+ UD_Korean-BUFS.txt
++ UD_Korean-BUFS.txt (38,074 문장)
   * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
++ UD_Korean-BUFS_all.txt (740,447 문장)
+  * [download]()
++ UD_Korean-BUFS_needfix.txt (702,373 문장)
+  * [download]()
   
 
 ## 형태소 유형의 전 처리
@@ -116,7 +120,7 @@ optional arguments:
     | RULE_07 관형절의 처리 | acl | 862,774 어절 |
 1. 1을 제외한 나머지 중 두 기관의 의존관계가 동일한 개수: 5,698,372 어절
 1. 1, 3을 제외한 나머지 의존관계 개수(수작업 필요): 1,961,440 어절
-1. 4에 해당하는 의존관계가 하나라도 포함된 문장의 개수: 702,373 어절
+1. 4에 해당하는 의존관계가 하나라도 포함된 문장의 개수: 702,373 문장
 
 
 ## Result
