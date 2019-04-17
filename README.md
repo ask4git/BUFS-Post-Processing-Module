@@ -22,7 +22,7 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
   * 기타 형태소 유형의 전 처리
   
     | 전 처리 전 형태소 | 전 처리 후 형태소 |
-    |---|---|
+    |:---:|:---:|
     | NNG+NNG | NNG |
     | NNP+NNP | NNP |
     | XSN+XSN | XSN |
@@ -35,7 +35,7 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
 + 전 처리 후 변화
 
     | 항목 | 전 처리 전 | 전 처리 후 |
-    | :------- | ----: | :---: |
+    | :------- | :----: | :---: |
     | 같은 형태소 유형의 의존소의 개수 | 8,420,798 어절 | 8,936,293 어절 |
     | 같은 형태소 유형의 의존소의 비율 | 84.08 % | 89.22 % |
     | 다른 형태소 유형의 의존소의 개수 | 1,594,216 어절 | 1,078,721 어절 |
@@ -68,7 +68,8 @@ Busan University of Foreign Studies NLP Module for post-processing of korean lan
 import post_processing_module as ppm
 
 module = ppm.PostProcessModule(path, output_type)
-module.process() # path의 경로에 있는 input corpus를 읽어 후 처리 한 후 현재 디렉터리에 output_data이름으로 output_type의 형식으로 결과를 출력
+module.process() # path의 경로에 있는 input corpus를 읽어 후 처리 한 후 현재 디렉터리에 
+                 # output_data이름으로 output_type의 형식으로 결과를 출력
 ```
 + dictionary.py
 ```python
@@ -100,11 +101,11 @@ optional arguments:
 
 ## Statistics
 
-+ Module로 fixed된 의존관계 개수: 2,355,202 어절
-+ RULE에 따라서 fixed된 의존관계 개수
+1. Module로 fixed된 의존관계 개수: 2,355,202 어절
+1. RULE에 따라서 fixed된 의존관계 개수
 
     | RULE | 지배소와의 관계명 | 어절 개수 |
-    | :------- | :---: | ----: |
+    | :------- | :---: | :----: |
     | RULE_01 SF와 SP의 처리 | punch | 976,373 어절 |
     | RULE_02 관용어의 의존관계 '~수' | fixed | 59,814 어절 |
     | RULE_03 관용어의 의존관계 '~있(VA)', '~없' | aux | 59,811 어절 |
@@ -112,6 +113,6 @@ optional arguments:
     | RULE_05 '~에', '~를' 등등 | fixed | 30,277 어절 |
     | RULE_06 대등접속사 '및'의 처리 | cc | 4675 어절 |
     | RULE_07 관형절의 처리 | acl | 862,774 어절 |
-+ 1을 제외한 나머지 중 두 기관의 의존관계가 동일한 개수: 5,698,372 어절
-+ 1, 3을 제외한 나머지 의존관계 개수(수작업 필요): 1,961,440 어절
-+ 4에 해당하는 의존관계가 하나라도 포함된 문장의 개수: 702,373 어절
+1. 1을 제외한 나머지 중 두 기관의 의존관계가 동일한 개수: 5,698,372 어절
+1. 1, 3을 제외한 나머지 의존관계 개수(수작업 필요): 1,961,440 어절
+1. 4에 해당하는 의존관계가 하나라도 포함된 문장의 개수: 702,373 어절
