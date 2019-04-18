@@ -16,11 +16,11 @@
   | 동일한 의존관계 개수 |	6,866,872 어절	|
   | 동일한 의존관계 비율	| 68.56 %	|
 + UD_Korean-BUFS.txt (38,074 문장)
-  * [download]()
+  * [download](https://drive.google.com/open?id=1oGptWopjQRgHybHQ6AmcGAfZh1KCSBbG)
 + UD_Korean-BUFS_all.txt (740,447 문장)
   * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
 + UD_Korean-BUFS_needfix.txt (702,373 문장)
-  * [download]()
+  * [download](https://drive.google.com/open?id=1Vo8mzUNFTH3bDGlNWgbUEybuYDCvglCN)
   
 
 ## 형태소 유형의 전 처리
