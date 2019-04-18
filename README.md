@@ -5,7 +5,7 @@
 
 ## Corpus
 + 입력 말뭉치 정보 (740,460 문장)
-  * [download]()
+  * [download](https://drive.google.com/open?id=1XOSs42pv5UcMe-9EbN_sLzDbX6_1ryZE)
   * 어절 개수가 500 넘어가는 몇몇 문장에서 비정상적인 문장구조를 가지고 있는 13문장을 제외하고 나머지 740,447 문장 사용
   * delete_string_id = [43423, 230168, 230169, 231733, 231739, 231748, 231787, 232020, 238124, 331682, 383272, 419031, 631461]
   
@@ -16,9 +16,9 @@
   | 동일한 의존관계 개수 |	6,866,872 어절	|
   | 동일한 의존관계 비율	| 68.56 %	|
 + UD_Korean-BUFS.txt (38,074 문장)
-  * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
-+ UD_Korean-BUFS_all.txt (740,447 문장)
   * [download]()
++ UD_Korean-BUFS_all.txt (740,447 문장)
+  * [download](https://drive.google.com/open?id=1mVBOA5zxStvF_AM0jBL5q--uPjlL4LE3)
 + UD_Korean-BUFS_needfix.txt (702,373 문장)
   * [download]()
   
