@@ -131,3 +131,11 @@ class PostProcessModule:
             for j in range(len(self.__s[i])):
                 print(str(self.__s[i]) + ' ', end='')
             print('')
+
+    @staticmethod
+    def to_conllu_format(_input_file_path, _conllu_output_file_path):
+        with open(_conllu_output_file_path, 'w', encoding='utf-8') as output_file:
+            with open(_input_file_path, 'r', encoding='utf-8-sig') as input_file:
+                for each_line in input_file.readlines():
+                    string = each_line.strip()
+
